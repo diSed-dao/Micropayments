@@ -76,4 +76,6 @@ SMC are one of the simplest mechanisms in the Layer-2 scene, but they can serve 
 bidirectional, trustless, multi-party, fully connected payment networks.
 For further info on how that is possible, there is a very interesting SoK paper linked in the introduction.
 
-We plan to enhance this part of project beyond the scope of SMCs, make this production-ready and build an Algorand for our product diSed in Version 1.1 for payments to the AI Product Companies.
+We plan to enhance this part of project beyond the scope of SMCs, make this production-ready and build an Algorand for our product diSed in Version 1.1 for payments to the AI Product Companies.nce the platform's core infrastructure is ready, the team will actively collaborate with AI project creators. The goal here is to onboard various AI projects onto the platform by tokenizing their APIs. This process involves defining the parameters of the API tokens, such as usage limits, pricing models, and any special conditions. Each AI project may have unique requirements, so flexibility and customization will be key.
+
+Effective communication and cooperation with AI project creators are essential during this phase to ensure a smooth integration process. API tokenization will make AI services accessible through the marketplace, providing users with a diverse selection of AI offerings.
