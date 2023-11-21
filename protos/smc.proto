@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+message SMCMethod {
+  enum MethodEnum {
+    SETUP_CHANNEL = 0;
+    PAY = 1;
+  }
+  MethodEnum method = 1;
+}
+
+message setupProposal {
+  string sender = 1;
+  uint64 nonce = 2;
+  uint64 minRefundBlock = 3;
+  uint64 maxRefundBlock = 4;
+}
+
+message setupResponse {
+  string recipient = 1;
+  bytes lsigSignature = 2;
+}
+
+message Payment {
+  uint64 cumulativeAmount = 1;
+  bytes lsigSignature = 2;
+}
